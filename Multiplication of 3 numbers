@@ -1,0 +1,22 @@
+// multipliatin of 3 numbers
+#include <stdio.h>
+
+
+int main() 
+{ 
+    int s,d,y,mult;
+    printf("enter first number:");
+    scanf("%d",&s);
+    printf("enter second number:");
+    scanf("%d",&d);
+    printf("enter third number:");
+    scanf("%d",&y);
+    mult=s*d*y;
+    printf("multiplication is %d",mult);
+    return 0;
+}
+Output:
+enter first number:48
+enter second number:40
+enter third number:18
+multiplication is: 34560
